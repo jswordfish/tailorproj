@@ -30,6 +30,13 @@ public class TailorService {
 		// TODO Auto-generated method stub
 		return tailorDao.getTailorById(id);
 	}
+	
+	public Integer getNotSuitableTailorsCount(){
+		/**
+		 * Write implementation
+		 */
+		return 0;
+	}
 
 	
 

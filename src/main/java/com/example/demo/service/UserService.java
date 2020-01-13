@@ -14,13 +14,33 @@ public class UserService {
 	
 	
 	public boolean addUser(RegisteredUser u1) {
-		// TODO Auto-generated method stub
-		if(userDao.addUser(u1)) {
-			return true;
-		}else{
-			return false;
-		}
-		
+		/**
+		 * Write Implementation
+		 */
+		return false;
 	}
+	
+	public Integer getNonRegisteredUsersCount() {
+		/**
+		 * Write Implementation
+		 */
+		return 0;
+	}
+	
+	public Integer getUserRegistrationsInPipelineCountUsers() {
+		/**
+		 * Write Implementation
+		 */
+		return 0;
+	}
+	
+	public Integer getSuspendUsersCountUsers() {
+		/**
+		 * Write Implementation
+		 */
+		return 0;
+	}
+	
+	
 
 }
